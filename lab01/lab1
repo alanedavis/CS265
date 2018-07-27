@@ -1,0 +1,126 @@
+Question 1:
+None
+
+
+
+
+
+Question 2:
+total 132
+-rwxr-xr-x 1 kschmidt kschmidt 9216 Jan 17 15:36 annoy
+-rwxr-xr-x 1 kschmidt kschmidt  265 Apr 21  2016 annoy.bash
+-rw-r--r-- 1 kschmidt kschmidt  200 Apr  8 11:39 annoy.cc
+-rw-r----- 1 kschmidt kschmidt 5317 Apr  2  2007 chmod_lab.orig
+-rw-r--r-- 1 kschmidt kschmidt 8060 Apr  9 14:27 funny
+drwxr-x--- 3 kschmidt kschmidt 4096 Apr 21  2016 Grade
+-rwxr-xr-x 1 kschmidt kschmidt  240 Apr  9 15:06 hello.bash
+-rw------- 1 kschmidt kschmidt  100 Sep 26  2013 ids
+-rw-r--r-- 1 kschmidt kschmidt  180 Apr  2  2007 itemList
+-rw-r--r-- 1 kschmidt kschmidt  258 Apr  2  2007 itemList-2cols
+lrwxrwxrwx 1 kschmidt kschmidt   34 Apr  4  2012 kam.html -> /home/kca26/public_html/index.html
+-rwxr-xr-x 1 kschmidt kschmidt   48 Sep 25  2013 kurt
+-rw-r--r-- 1 kschmidt kschmidt 1596 Sep 23  2015 lateExcuses
+-rw-r--r-- 1 kschmidt kschmidt   39 Apr  4  2012 list
+-rwxr-xr-x 1 kschmidt kschmidt  215 Aug  8  2012 ls
+-rw-r--r-- 1 kschmidt kschmidt  212 Apr  8 11:44 Makefile
+-rw-r--r-- 1 kschmidt kschmidt 8747 Jul 24  2011 moreUnix.html
+-rw-r--r-- 1 kschmidt kschmidt   36 Apr  4  2014 msg
+-rw-r--r-- 1 kschmidt kschmidt   24 Apr  2  2014 numList
+-rwx------ 1 kschmidt kschmidt   70 Jan 22 15:11 output
+-rw-r--r-- 1 kschmidt kschmidt   52 Apr  2  2007 regexp-input
+-rw-r--r-- 1 kschmidt kschmidt 2665 Oct  3  2017 sample.html
+-rw------- 1 kschmidt kschmidt   67 Apr 11 14:17 spaces
+-rwxr-xr-x 1 kschmidt kschmidt   75 Jan 24  2011 streams.bash
+-rw-r--r-- 1 kschmidt kschmidt 1648 Apr  1  2009 TelecomTruths
+-rw-r--r-- 1 kschmidt kschmidt 8059 Apr  2  2007 tormentTelemarketers
+-rw-r--r-- 1 kschmidt kschmidt 1446 Apr  2  2007 UnitTestingPhase
+
+
+
+
+
+Question 3:
+644 would allow the owner to read and write to the file, and will alow users in the group to read the file. Finally, the file will be readable by everyone else.
+
+
+
+
+
+Question 4:
+755 gives the owner read, write, and exectute permissions. Gives everyone else read and execute permissions.
+
+
+
+
+
+Question 5:
+Yes, you can read the file.
+
+
+
+
+
+Question 6:
+Yes, you can read the file.
+
+
+
+
+
+Question 7:
+Yes, I was successful.
+
+
+
+
+
+Question 8:
+Two ways of giving myself permission to execute the file is with "chmod 100" or "chmod u+x".
+
+
+
+
+
+Question 9:
+The file was read-only. I was not able to make changes.
+
+
+
+
+
+Question 10:
+ls * -
+annoy
+annoy.cc
+funny
+hello.bash
+itemList
+itemList-2cols
+TelecomTruths
+UnitTestingPhase
+---------------
+lab01:
+lab1
+url
+
+ls a* -
+annoy
+annoy.cc
+
+ls *m* -
+itemList
+itemList-2cols
+TelecomTruths
+
+ls anno -
+ls: cannot access 'anno': No such file or directory
+
+ls annoy -
+annoy
+
+
+
+
+Question 11 - 
+"vim: warnning: output is not to a terminal"
+
