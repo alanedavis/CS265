@@ -1,0 +1,130 @@
+Exercise 1-1:
+-It was wrong to redefine "True" and "False" to its opposite values
+-it makes more sense to include is_eof in the if statement
+-Poorly written, hard to understand
+
+
+
+
+Exercise 1-2:
+Improved Function
+int isLessEqual(char *s, char *t) {
+	return strcmps(s, t) <= 0;
+}
+
+
+
+
+Exercise 1-3:
+-This code was not meant to be read out loud in human tongue...
+
+
+
+
+Exercise 1-4:
+Improved Code (A)
+if ( (c != 'y') && (c != 'Y') )
+	return;
+
+Improved Code (B)
+if (length >= BUFSIZE)
+   	length = BUFSIZE;
+
+Improved Code (C)
+flag = !flag;
+
+Improved Code (D)
+quote = 0;
+if ( (*line) == '"' )
+	quote = 1;
+
+Improved Code (E)
+bit = val & 1;
+
+
+
+
+Exercise 1-5:
+-It is hard to say exactly what will happen when the code is executed. The read function is called twice which may create unknown outcomes due to the order of val and ch (which I honestly do not know what is happening)
+
+
+
+
+Exercise 1-6:
+Produced Outputs
+1 1
+1 2
+2 1
+
+
+
+
+Exercise 1-7:
+Improved Code (A)
+if ( (!istty(stdin)) && (!istty(stdout)) && (!istty(stderr)) )
+	return(0);
+
+Improved Code (B)
+return(retval); # No extra code needed
+
+Improtved Code (C)
+for (k = 0; k < 4; k++ {
+   	scanf(%lf", &dx);
+   	x += dx;
+   }
+
+
+
+
+Exercise 1-8:
+-Code will go out of range since count is put at the beginning of the code
+-Count should be incremented at the end of the loop as follows
+
+Improved Code
+for (int count = 0; count < total; ++count)
+   {
+   	if (this.getName(count) == nametable.userName()) {
+		return true;
+	}
+   }
+
+
+
+
+Exercise 1-9:
+-The some of the code isn't properlly parenthesized (Can and will lead to problems)
+-c can be evaluated more than once which will mess with any comparison
+
+
+
+
+Exercise 1-10:
+The user needs to be able to understand potential errors, so I would rename the defenitions as follows.
+
+#define FT2METER	0.330480
+#define METER2FT	3.280840
+#define MI2FT		5280.000
+#define MI2KM		1.609344
+#define SQMI2SQKM	2.589988
+
+
+
+
+Exercise 1-11:
+Part (A)
+for the comment "// returns 1 if w in dictionary, otherwise returns 0":
+-The function is void, but the comment states that it will return 1 which is not possible.
+-User will not know what dictionary the programmer is talking about
+
+Part (B)
+for the section of code "if (n > MAX || n % 2 > 0) // test for even number":
+-The comment barely explains the line of code that it is commenting
+-The comment does not talk about how the even number condition is or'd with the condition "n > max"
+-The comment should have more detail or not be there at all
+
+Part(C)
+for the section of code from "//Write a message" to the end of the "void write_message()" function:
+-The comments are not descriptive, and poorly written
+-Also the comment "//Increment line counter" is used twice even though it seems to representing 2 very different sections of code
+-The comments should have touched on the fact that the "line_number" variable will increment by 3 before the function is finished executing
+-Almost all of the comments are unhelpful, and or useless
