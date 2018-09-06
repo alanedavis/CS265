@@ -1,0 +1,23 @@
+Question 1:
+The script is used to show the differences in the way you view the arguments. The program loops over all of the arguments using ($* - pulling all of the input options using a loop), shows that it can use ("$*) to print all of the arguments in one line instead of a multiple line output, uses ($@) to pull all of the inputs by printing whatever characters are put with spaces as delimiters to dictate the next input, uses ("$@") to do the same thing as ($@) but treats anything in quotations as one "input", and shows the functioanlity of the "shift built-in" command is nearly identical to ("$@") but without any memory, and finally ($1) recognizes that the second input was quotated returning double quotes.
+
+Question 2:
+When using $1, $2, $3 args.bash is able to recognize double digits. However, when using ${1}, ${2}, ${3} in args.bash it only works for single digits which is better for past 9.
+
+Question 3:
+The eg.bash file shows great use of the find command, as well as giving a taste of using while loops, and different functions to return different outputs using echo. This file also showcases mathematical expressions in bash which is a lot different from most coding languages. 
+
+Question 4:
+rv.bash is a program that forces you to type a numeric value, or the program will not run successfully. When a numerical value is properlly typed the program simply exits signifying a successful execution of the program.
+
+Question 5:
+Commited to git
+
+Question 6:
+Commited to git
+
+Question 7:
+Commited to git
+
+Question 8:
+Commited to git

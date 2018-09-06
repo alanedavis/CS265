@@ -1,0 +1,6 @@
+#/bin/bash
+
+for file in *$1; do	
+	newFileName = "${file%$1}""$2"
+	mv $file $newFileName\
+done
